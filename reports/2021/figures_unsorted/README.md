@@ -10,7 +10,7 @@ The following copied with `noglob scp -P 2022 sejoslin@farm.cse.ucdavis.edu:/hom
 * {seq_tech}_k*_kat_comp-main.mx.density.png == R1 vs R2 (seq bias)
 
 ## LONGQC PLOTS
-The following in the `longqc_raw/` directory were coppied with: `noglob scp -P 2022 sejoslin@farm.cse.ucdavis.edu:/home/sejoslin/git_repos/genome_assembly/output/longqc/?_hifi_?/figs/*.png longqc_raw/.`
+The following in the `longqc_raw/` directory were copied with: 
 ```
 noglob scp -r -P 2022 sejoslin@farm.cse.ucdavis.edu:/home/sejoslin/git_repos/genome_assembly/output/longqc/?_hifi_? longqc_raw/.
 for i in longqc_raw/*_hifi_*
